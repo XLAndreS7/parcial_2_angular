@@ -1,0 +1,22 @@
+<h2>Editar Cita</h2>
+
+<form (submit)="guardarCambios()" class="editar-cita-form">
+  <label>Cédula: </label>
+  <input type="text" [(ngModel)]="cita.cedula" name="cedula" disabled>
+  
+  <label>Nombre: </label>
+  <input type="text" [(ngModel)]="cita.nombre" name="nombre">
+  
+  <label>Fecha: </label>
+  <input type="date" [(ngModel)]="cita.fecha" name="fecha">
+  
+  <label>Hora: </label>
+  <input type="time" [(ngModel)]="cita.hora" name="hora">
+  
+  <label>Observaciones: </label>
+  <textarea [(ngModel)]="cita.observaciones" name="observaciones"></textarea>
+  
+  <button type="submit">Guardar Cambios</button>
+</form>
+
+

@@ -1,0 +1,8 @@
+<h2>Listado de Citas</h2>
+
+<div *ngFor="let cita of citas" class="cita-item">
+  <p>{{ cita.nombre }} - {{ cita.fecha }} - {{ cita.hora }}</p>
+  <button (click)="editarCita()" class="boton-editar">Editar</button>
+</div>
+
+

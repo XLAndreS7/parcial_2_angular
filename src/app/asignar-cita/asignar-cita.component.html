@@ -1,0 +1,11 @@
+<h2>Asignar Cita</h2>
+
+<form (submit)="guardarCita()">
+  <label>Cedula: <input type="text" [(ngModel)]="cita.cedula" name="cedula"></label>
+  <label>Nombre: <input type="text" [(ngModel)]="cita.nombre" name="nombre"></label>
+  <label>Fecha: <input type="date" [(ngModel)]="cita.fecha" name="fecha"></label>
+  <label>Hora: <input type="time" [(ngModel)]="cita.hora" name="hora"></label>
+  <label>Observaciones: <textarea [(ngModel)]="cita.observaciones" name="observaciones"></textarea></label>
+  <button type="submit">Guardar</button>
+</form>
+

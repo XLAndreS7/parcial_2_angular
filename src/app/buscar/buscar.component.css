@@ -1,0 +1,36 @@
+/* buscar-citas.component.css */
+
+/* Estilo para el título "Buscar Citas" */
+h2 {
+    font-size: 24px; /* Tamaño de fuente */
+    margin-bottom: 20px; /* Espacio inferior */
+  }
+  
+  /* Estilo para el campo de entrada de texto */
+  input[type="text"] {
+    width: 200px; /* Ancho del campo de entrada de texto */
+    padding: 5px; /* Espacio interno */
+    margin-right: 10px; /* Espacio a la derecha del campo */
+  }
+  
+  /* Estilo para el botón "Buscar" */
+  button {
+    background-color: #007bff; /* Color de fondo azul */
+    color: #fff; /* Color de texto blanco */
+    padding: 8px 16px; /* Espacio interno en el botón */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor de apuntar */
+  }
+  
+  /* Estilo para la lista de citas encontradas */
+  div {
+    margin-top: 20px; /* Espacio superior */
+  }
+  
+  /* Estilo para cada elemento de la lista */
+  div p {
+    font-size: 16px; /* Tamaño de fuente */
+    margin-bottom: 10px; /* Espacio inferior entre elementos de la lista */
+  }
+  

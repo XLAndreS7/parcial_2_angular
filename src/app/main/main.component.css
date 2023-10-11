@@ -1,0 +1,24 @@
+/* menu-sidenav.component.css */
+
+/* Estilo para el contenedor de sidenav */
+mat-sidenav-container {
+    height: 100vh; /* Establece la altura al 100% de la altura de la ventana */
+  }
+  
+  /* Estilo para el sidenav */
+  mat-sidenav {
+    width: 250px; /* Ancho del sidenav */
+    background-color: #333; /* Color de fondo del sidenav */
+    color: #fff; /* Color del texto en el sidenav */
+  }
+  
+  /* Estilo para los enlaces de lista */
+  .mat-list-item {
+    color: #fff; /* Color del texto de los enlaces de lista */
+  }
+  
+  /* Estilo para los enlaces de lista al pasar el mouse */
+  .mat-list-item:hover {
+    background-color: #555; /* Cambia el color de fondo al pasar el mouse */
+  }
+  
